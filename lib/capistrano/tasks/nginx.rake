@@ -77,8 +77,8 @@ end
 #  after :publishing, 'nginx:reload'
 #end
 
-desc 'Server setup tasks'
-task :setup do
-  invoke 'nginx:setup'
-  invoke 'nginx:setup_ssl'
-end
+#desc 'Server setup tasks'
+#task :setup do
+#  invoke 'nginx:setup'
+#  invoke 'nginx:setup_ssl'
+#end
